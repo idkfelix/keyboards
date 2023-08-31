@@ -428,8 +428,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "qaz.step",
-      "vrml": ""
+      "step": "export/qaz.step",
+      "vrml": "export/qaz.wrl"
     },
     "page_layout_descr_file": ""
   },
