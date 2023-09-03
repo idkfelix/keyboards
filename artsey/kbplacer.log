@@ -1,0 +1,62 @@
+[kbplacer_plugin_action.py:78]: Plugin executed with KiCad version: 7.0.7
+[kbplacer_plugin_action.py:79]: Plugin executed with python version: '3.11.3 (main, Jun  5 2023, 09:32:32) [GCC 13.1.1 20230429]'
+[kbplacer_dialog.py:392]: Language: en
+[kbplacer_plugin_action.py:95]: GUI state: {"switch_section": {"annotation": "SW{}", "layout_path": "/home/felix/Code/kbd/artsey/keyboard-layout.json", "x_distance": "19.05", "y_distance": "19.05"}, "switch_diodes_section": {"enable": false, "element_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"relative_position": [5.08, 3.03], "orientation": 90.0, "side": "BACK"}}}, "additional_elements": {"elements_info": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "FRONT"}}]}, "misc_section": {"route_tracks": true, "template_path": ""}}
+[key_placer.py:68]: Set key 1U distance: 19050000/19050000
+[key_placer.py:282]: User layout: [[{'a': 7}, '', '', '', ''], ['', '', '', '']]
+[board_modifier.py:38]: Searching for SW1 footprint
+[board_modifier.py:49]: Setting SW1 footprint position: (34525000, 34525000)
+[board_modifier.py:38]: Searching for ST1 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW2 footprint
+[board_modifier.py:49]: Setting SW2 footprint position: (53575000, 34525000)
+[board_modifier.py:38]: Searching for ST2 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW3 footprint
+[board_modifier.py:49]: Setting SW3 footprint position: (72625000, 34525000)
+[board_modifier.py:38]: Searching for ST3 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW4 footprint
+[board_modifier.py:49]: Setting SW4 footprint position: (91675000, 34525000)
+[board_modifier.py:38]: Searching for ST4 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW5 footprint
+[board_modifier.py:49]: Setting SW5 footprint position: (34525000, 53575000)
+[board_modifier.py:38]: Searching for ST5 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW6 footprint
+[board_modifier.py:49]: Setting SW6 footprint position: (53575000, 53575000)
+[board_modifier.py:38]: Searching for ST6 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW7 footprint
+[board_modifier.py:49]: Setting SW7 footprint position: (72625000, 53575000)
+[board_modifier.py:38]: Searching for ST7 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW8 footprint
+[board_modifier.py:49]: Setting SW8 footprint position: (91675000, 53575000)
+[board_modifier.py:38]: Searching for ST8 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
