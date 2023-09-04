@@ -836,6 +836,11 @@
       (net 12 "Net-(D2-A-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 4a7977ad-25fa-486c-b7ab-f30d8b283d1b))
     (pad "2" thru_hole circle (at 0 5.9) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 20 "c3") (pinfunction "2") (pintype "passive") (tstamp b1555cb3-19e5-453b-825e-3fa23c0e5432))
+    (model "/home/felix/Code/keyboards/art/pg1350-mbk.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "PCM_marbastlib-xp-choc:SW_choc_Reversible_1u" (layer "F.Cu")
@@ -913,6 +918,11 @@
       (net 10 "Net-(D1-A-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 947acc07-81a1-4d69-aca0-03222e7d1b8c))
     (pad "2" thru_hole circle (at 0 5.9) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 18 "c1") (pinfunction "2") (pintype "passive") (tstamp 4435667c-1112-41f8-99fb-f102a8a294bf))
+    (model "/home/felix/Code/keyboards/art/pg1350-mbk.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "PCM_marbastlib-xp-mx:SW_MX_Reversible_1u" (layer "F.Cu")
@@ -1352,6 +1362,11 @@
       (net 11 "Net-(D1-A-Pad2)") (pinfunction "1") (pintype "passive") (tstamp cce6280b-9c1c-4e2f-8180-20016ca98b4a))
     (pad "2" thru_hole circle (at 0 5.9) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 19 "c2") (pinfunction "2") (pintype "passive") (tstamp 082a1e83-b23f-4076-a65d-9e3869915ee9))
+    (model "/home/felix/Code/keyboards/art/pg1350-mbk.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "PCM_marbastlib-xp-choc:SW_choc_Reversible_1u" (layer "F.Cu")
@@ -1429,6 +1444,11 @@
       (net 13 "Net-(D2-A-Pad2)") (pinfunction "1") (pintype "passive") (tstamp f6916a2d-3c81-461a-8f2a-be2bd0c35876))
     (pad "2" thru_hole circle (at 0 5.9) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 21 "c4") (pinfunction "2") (pintype "passive") (tstamp 555ab30f-f3d9-4b4e-9b80-4334c9ef72c9))
+    (model "/home/felix/Code/keyboards/art/pg1350-mbk.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
@@ -1556,6 +1576,11 @@
       (net 14 "Net-(D3-A-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 26b1c9aa-cc59-450e-a20e-70860f0a0a62))
     (pad "2" thru_hole circle (at 0 5.9 180) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 19 "c2") (pinfunction "2") (pintype "passive") (tstamp 29424875-e1c3-4229-82a5-061252431396))
+    (model "/home/felix/Code/keyboards/art/pg1350-mbk.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
@@ -1723,6 +1748,11 @@
       (net 15 "Net-(D3-A-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 1e0c3776-0489-4edf-b937-2d3a3629f853))
     (pad "2" thru_hole circle (at 0 5.9 180) (size 2 2) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 18 "c1") (pinfunction "2") (pintype "passive") (tstamp 7fda7de0-c9f0-466b-9ed9-55fc1aaec9d2))
+    (model "/home/felix/Code/keyboards/art/pg1350-mbk.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
