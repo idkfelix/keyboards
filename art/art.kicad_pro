@@ -428,8 +428,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "art.step",
-      "vrml": ""
+      "step": "export/art.step",
+      "vrml": "export/art.wrl"
     },
     "page_layout_descr_file": ""
   },

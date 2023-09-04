@@ -685,7 +685,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0575562d-a4be-43f6-900c-0c7af13cae6c)
     )
-    (fp_text value "AudioJack4" (at -0.35 -0.3744 180 unlocked) (layer "F.Fab")
+    (fp_text value "AudioJack4" (at -0.35 -0.3744 180 unlocked) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f2b59b16-adf2-4f09-9111-69047c857ba5)
     )
