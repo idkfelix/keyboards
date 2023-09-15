@@ -1,0 +1,951 @@
+[kbplacer_plugin_action.py:78]: Plugin executed with KiCad version: 7.0.7
+[kbplacer_plugin_action.py:79]: Plugin executed with python version: '3.11.5 (main, Aug 28 2023, 20:02:58) [GCC 13.2.1 20230801]'
+[kbplacer_dialog.py:392]: Language: en
+[kbplacer_plugin_action.py:95]: GUI state: {"switch_section": {"annotation": "SW{}", "layout_path": "/home/felix/Code/keyboards/fuckit/keyboard-layout.json", "x_distance": "19.05", "y_distance": "19.05"}, "switch_diodes_section": {"enable": false, "element_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"relative_position": [5.08, 3.03], "orientation": 90.0, "side": "BACK"}}}, "additional_elements": {"elements_info": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "FRONT"}}]}, "misc_section": {"route_tracks": true, "template_path": ""}}
+[key_placer.py:68]: Set key 1U distance: 19050000/19050000
+[key_placer.py:282]: User layout: [[{'a': 7}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, ''], ['', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, ''], [{'ry': 0.25, 'y': 1.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '', {'x': -0.75}, '']]
+[board_modifier.py:38]: Searching for SW1 footprint
+[board_modifier.py:49]: Setting SW1 footprint position: (34525000, 34525000)
+[board_modifier.py:38]: Searching for ST1 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW2 footprint
+[board_modifier.py:49]: Setting SW2 footprint position: (39287500, 34525000)
+[board_modifier.py:38]: Searching for ST2 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW3 footprint
+[board_modifier.py:49]: Setting SW3 footprint position: (44050000, 34525000)
+[board_modifier.py:38]: Searching for ST3 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW4 footprint
+[board_modifier.py:49]: Setting SW4 footprint position: (48812500, 34525000)
+[board_modifier.py:38]: Searching for ST4 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW5 footprint
+[board_modifier.py:49]: Setting SW5 footprint position: (53575000, 34525000)
+[board_modifier.py:38]: Searching for ST5 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW6 footprint
+[board_modifier.py:49]: Setting SW6 footprint position: (58337500, 34525000)
+[board_modifier.py:38]: Searching for ST6 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW7 footprint
+[board_modifier.py:49]: Setting SW7 footprint position: (63100000, 34525000)
+[board_modifier.py:38]: Searching for ST7 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW8 footprint
+[board_modifier.py:49]: Setting SW8 footprint position: (67862500, 34525000)
+[board_modifier.py:38]: Searching for ST8 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW9 footprint
+[board_modifier.py:49]: Setting SW9 footprint position: (72625000, 34525000)
+[board_modifier.py:38]: Searching for ST9 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW10 footprint
+[board_modifier.py:49]: Setting SW10 footprint position: (77387500, 34525000)
+[board_modifier.py:38]: Searching for ST10 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW11 footprint
+[board_modifier.py:49]: Setting SW11 footprint position: (82150000, 34525000)
+[board_modifier.py:38]: Searching for ST11 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW12 footprint
+[board_modifier.py:49]: Setting SW12 footprint position: (86912500, 34525000)
+[board_modifier.py:38]: Searching for ST12 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW13 footprint
+[board_modifier.py:49]: Setting SW13 footprint position: (91675000, 34525000)
+[board_modifier.py:38]: Searching for ST13 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW14 footprint
+[board_modifier.py:49]: Setting SW14 footprint position: (96437500, 34525000)
+[board_modifier.py:38]: Searching for ST14 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW15 footprint
+[board_modifier.py:49]: Setting SW15 footprint position: (101200000, 34525000)
+[board_modifier.py:38]: Searching for ST15 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW16 footprint
+[board_modifier.py:49]: Setting SW16 footprint position: (105962500, 34525000)
+[board_modifier.py:38]: Searching for ST16 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW17 footprint
+[board_modifier.py:49]: Setting SW17 footprint position: (110725000, 34525000)
+[board_modifier.py:38]: Searching for ST17 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW18 footprint
+[board_modifier.py:49]: Setting SW18 footprint position: (115487500, 34525000)
+[board_modifier.py:38]: Searching for ST18 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW19 footprint
+[board_modifier.py:49]: Setting SW19 footprint position: (120250000, 34525000)
+[board_modifier.py:38]: Searching for ST19 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW20 footprint
+[board_modifier.py:49]: Setting SW20 footprint position: (125012500, 34525000)
+[board_modifier.py:38]: Searching for ST20 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW21 footprint
+[board_modifier.py:49]: Setting SW21 footprint position: (129775000, 34525000)
+[board_modifier.py:38]: Searching for ST21 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW22 footprint
+[board_modifier.py:49]: Setting SW22 footprint position: (134537500, 34525000)
+[board_modifier.py:38]: Searching for ST22 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW23 footprint
+[board_modifier.py:49]: Setting SW23 footprint position: (139300000, 34525000)
+[board_modifier.py:38]: Searching for ST23 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW24 footprint
+[board_modifier.py:49]: Setting SW24 footprint position: (144062500, 34525000)
+[board_modifier.py:38]: Searching for ST24 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW25 footprint
+[board_modifier.py:49]: Setting SW25 footprint position: (148825000, 34525000)
+[board_modifier.py:38]: Searching for ST25 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW26 footprint
+[board_modifier.py:49]: Setting SW26 footprint position: (153587500, 34525000)
+[board_modifier.py:38]: Searching for ST26 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW27 footprint
+[board_modifier.py:49]: Setting SW27 footprint position: (158350000, 34525000)
+[board_modifier.py:38]: Searching for ST27 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW28 footprint
+[board_modifier.py:49]: Setting SW28 footprint position: (163112500, 34525000)
+[board_modifier.py:38]: Searching for ST28 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW29 footprint
+[board_modifier.py:49]: Setting SW29 footprint position: (167875000, 34525000)
+[board_modifier.py:38]: Searching for ST29 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW30 footprint
+[board_modifier.py:49]: Setting SW30 footprint position: (172637500, 34525000)
+[board_modifier.py:38]: Searching for ST30 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW31 footprint
+[board_modifier.py:49]: Setting SW31 footprint position: (177400000, 34525000)
+[board_modifier.py:38]: Searching for ST31 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW32 footprint
+[board_modifier.py:49]: Setting SW32 footprint position: (182162500, 34525000)
+[board_modifier.py:38]: Searching for ST32 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW33 footprint
+[board_modifier.py:49]: Setting SW33 footprint position: (186925000, 34525000)
+[board_modifier.py:38]: Searching for ST33 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW34 footprint
+[board_modifier.py:49]: Setting SW34 footprint position: (191687500, 34525000)
+[board_modifier.py:38]: Searching for ST34 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW35 footprint
+[board_modifier.py:49]: Setting SW35 footprint position: (196450000, 34525000)
+[board_modifier.py:38]: Searching for ST35 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW36 footprint
+[board_modifier.py:49]: Setting SW36 footprint position: (201212500, 34525000)
+[board_modifier.py:38]: Searching for ST36 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW37 footprint
+[board_modifier.py:49]: Setting SW37 footprint position: (205975000, 34525000)
+[board_modifier.py:38]: Searching for ST37 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW38 footprint
+[board_modifier.py:49]: Setting SW38 footprint position: (210737500, 34525000)
+[board_modifier.py:38]: Searching for ST38 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW39 footprint
+[board_modifier.py:49]: Setting SW39 footprint position: (215500000, 34525000)
+[board_modifier.py:38]: Searching for ST39 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW40 footprint
+[board_modifier.py:49]: Setting SW40 footprint position: (220262500, 34525000)
+[board_modifier.py:38]: Searching for ST40 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW41 footprint
+[board_modifier.py:49]: Setting SW41 footprint position: (225025000, 34525000)
+[board_modifier.py:38]: Searching for ST41 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW42 footprint
+[board_modifier.py:49]: Setting SW42 footprint position: (229787500, 34525000)
+[board_modifier.py:38]: Searching for ST42 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW43 footprint
+[board_modifier.py:49]: Setting SW43 footprint position: (234550000, 34525000)
+[board_modifier.py:38]: Searching for ST43 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW44 footprint
+[board_modifier.py:49]: Setting SW44 footprint position: (239312500, 34525000)
+[board_modifier.py:38]: Searching for ST44 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW45 footprint
+[board_modifier.py:49]: Setting SW45 footprint position: (244075000, 34525000)
+[board_modifier.py:38]: Searching for ST45 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW46 footprint
+[board_modifier.py:49]: Setting SW46 footprint position: (34525000, 53575000)
+[board_modifier.py:38]: Searching for ST46 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW47 footprint
+[board_modifier.py:49]: Setting SW47 footprint position: (39287500, 53575000)
+[board_modifier.py:38]: Searching for ST47 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW48 footprint
+[board_modifier.py:49]: Setting SW48 footprint position: (44050000, 53575000)
+[board_modifier.py:38]: Searching for ST48 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW49 footprint
+[board_modifier.py:49]: Setting SW49 footprint position: (48812500, 53575000)
+[board_modifier.py:38]: Searching for ST49 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW50 footprint
+[board_modifier.py:49]: Setting SW50 footprint position: (53575000, 53575000)
+[board_modifier.py:38]: Searching for ST50 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW51 footprint
+[board_modifier.py:49]: Setting SW51 footprint position: (58337500, 53575000)
+[board_modifier.py:38]: Searching for ST51 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW52 footprint
+[board_modifier.py:49]: Setting SW52 footprint position: (63100000, 53575000)
+[board_modifier.py:38]: Searching for ST52 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW53 footprint
+[board_modifier.py:49]: Setting SW53 footprint position: (67862500, 53575000)
+[board_modifier.py:38]: Searching for ST53 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW54 footprint
+[board_modifier.py:49]: Setting SW54 footprint position: (72625000, 53575000)
+[board_modifier.py:38]: Searching for ST54 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW55 footprint
+[board_modifier.py:49]: Setting SW55 footprint position: (77387500, 53575000)
+[board_modifier.py:38]: Searching for ST55 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW56 footprint
+[board_modifier.py:49]: Setting SW56 footprint position: (82150000, 53575000)
+[board_modifier.py:38]: Searching for ST56 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW57 footprint
+[board_modifier.py:49]: Setting SW57 footprint position: (86912500, 53575000)
+[board_modifier.py:38]: Searching for ST57 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW58 footprint
+[board_modifier.py:49]: Setting SW58 footprint position: (91675000, 53575000)
+[board_modifier.py:38]: Searching for ST58 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW59 footprint
+[board_modifier.py:49]: Setting SW59 footprint position: (96437500, 53575000)
+[board_modifier.py:38]: Searching for ST59 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW60 footprint
+[board_modifier.py:49]: Setting SW60 footprint position: (101200000, 53575000)
+[board_modifier.py:38]: Searching for ST60 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW61 footprint
+[board_modifier.py:49]: Setting SW61 footprint position: (105962500, 53575000)
+[board_modifier.py:38]: Searching for ST61 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW62 footprint
+[board_modifier.py:49]: Setting SW62 footprint position: (110725000, 53575000)
+[board_modifier.py:38]: Searching for ST62 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW63 footprint
+[board_modifier.py:49]: Setting SW63 footprint position: (115487500, 53575000)
+[board_modifier.py:38]: Searching for ST63 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW64 footprint
+[board_modifier.py:49]: Setting SW64 footprint position: (120250000, 53575000)
+[board_modifier.py:38]: Searching for ST64 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW65 footprint
+[board_modifier.py:49]: Setting SW65 footprint position: (125012500, 53575000)
+[board_modifier.py:38]: Searching for ST65 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW66 footprint
+[board_modifier.py:49]: Setting SW66 footprint position: (129775000, 53575000)
+[board_modifier.py:38]: Searching for ST66 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW67 footprint
+[board_modifier.py:49]: Setting SW67 footprint position: (134537500, 53575000)
+[board_modifier.py:38]: Searching for ST67 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW68 footprint
+[board_modifier.py:49]: Setting SW68 footprint position: (139300000, 53575000)
+[board_modifier.py:38]: Searching for ST68 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW69 footprint
+[board_modifier.py:49]: Setting SW69 footprint position: (144062500, 53575000)
+[board_modifier.py:38]: Searching for ST69 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW70 footprint
+[board_modifier.py:49]: Setting SW70 footprint position: (148825000, 53575000)
+[board_modifier.py:38]: Searching for ST70 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW71 footprint
+[board_modifier.py:49]: Setting SW71 footprint position: (153587500, 53575000)
+[board_modifier.py:38]: Searching for ST71 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW72 footprint
+[board_modifier.py:49]: Setting SW72 footprint position: (158350000, 53575000)
+[board_modifier.py:38]: Searching for ST72 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW73 footprint
+[board_modifier.py:49]: Setting SW73 footprint position: (163112500, 53575000)
+[board_modifier.py:38]: Searching for ST73 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW74 footprint
+[board_modifier.py:49]: Setting SW74 footprint position: (167875000, 53575000)
+[board_modifier.py:38]: Searching for ST74 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW75 footprint
+[board_modifier.py:49]: Setting SW75 footprint position: (172637500, 53575000)
+[board_modifier.py:38]: Searching for ST75 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW76 footprint
+[board_modifier.py:49]: Setting SW76 footprint position: (177400000, 53575000)
+[board_modifier.py:38]: Searching for ST76 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW77 footprint
+[board_modifier.py:49]: Setting SW77 footprint position: (182162500, 53575000)
+[board_modifier.py:38]: Searching for ST77 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW78 footprint
+[board_modifier.py:49]: Setting SW78 footprint position: (186925000, 53575000)
+[board_modifier.py:38]: Searching for ST78 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW79 footprint
+[board_modifier.py:49]: Setting SW79 footprint position: (191687500, 53575000)
+[board_modifier.py:38]: Searching for ST79 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW80 footprint
+[board_modifier.py:49]: Setting SW80 footprint position: (196450000, 53575000)
+[board_modifier.py:38]: Searching for ST80 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW81 footprint
+[board_modifier.py:49]: Setting SW81 footprint position: (201212500, 53575000)
+[board_modifier.py:38]: Searching for ST81 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW82 footprint
+[board_modifier.py:49]: Setting SW82 footprint position: (205975000, 53575000)
+[board_modifier.py:38]: Searching for ST82 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW83 footprint
+[board_modifier.py:49]: Setting SW83 footprint position: (210737500, 53575000)
+[board_modifier.py:38]: Searching for ST83 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW84 footprint
+[board_modifier.py:49]: Setting SW84 footprint position: (215500000, 53575000)
+[board_modifier.py:38]: Searching for ST84 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW85 footprint
+[board_modifier.py:49]: Setting SW85 footprint position: (220262500, 53575000)
+[board_modifier.py:38]: Searching for ST85 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW86 footprint
+[board_modifier.py:49]: Setting SW86 footprint position: (225025000, 53575000)
+[board_modifier.py:38]: Searching for ST86 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW87 footprint
+[board_modifier.py:49]: Setting SW87 footprint position: (229787500, 53575000)
+[board_modifier.py:38]: Searching for ST87 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW88 footprint
+[board_modifier.py:49]: Setting SW88 footprint position: (234550000, 53575000)
+[board_modifier.py:38]: Searching for ST88 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW89 footprint
+[board_modifier.py:49]: Setting SW89 footprint position: (239312500, 53575000)
+[board_modifier.py:38]: Searching for ST89 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW90 footprint
+[board_modifier.py:49]: Setting SW90 footprint position: (244075000, 53575000)
+[board_modifier.py:38]: Searching for ST90 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW91 footprint
+[board_modifier.py:49]: Setting SW91 footprint position: (34525000, 72625000)
+[board_modifier.py:38]: Searching for ST91 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW92 footprint
+[board_modifier.py:49]: Setting SW92 footprint position: (39287500, 72625000)
+[board_modifier.py:38]: Searching for ST92 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW93 footprint
+[board_modifier.py:49]: Setting SW93 footprint position: (44050000, 72625000)
+[board_modifier.py:38]: Searching for ST93 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW94 footprint
+[board_modifier.py:49]: Setting SW94 footprint position: (48812500, 72625000)
+[board_modifier.py:38]: Searching for ST94 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW95 footprint
+[board_modifier.py:49]: Setting SW95 footprint position: (53575000, 72625000)
+[board_modifier.py:38]: Searching for ST95 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW96 footprint
+[board_modifier.py:49]: Setting SW96 footprint position: (58337500, 72625000)
+[board_modifier.py:38]: Searching for ST96 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW97 footprint
+[board_modifier.py:49]: Setting SW97 footprint position: (63100000, 72625000)
+[board_modifier.py:38]: Searching for ST97 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW98 footprint
+[board_modifier.py:49]: Setting SW98 footprint position: (67862500, 72625000)
+[board_modifier.py:38]: Searching for ST98 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW99 footprint
+[board_modifier.py:49]: Setting SW99 footprint position: (72625000, 72625000)
+[board_modifier.py:38]: Searching for ST99 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW100 footprint
+[board_modifier.py:49]: Setting SW100 footprint position: (77387500, 72625000)
+[board_modifier.py:38]: Searching for ST100 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW101 footprint
+[board_modifier.py:49]: Setting SW101 footprint position: (82150000, 72625000)
+[board_modifier.py:38]: Searching for ST101 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW102 footprint
+[board_modifier.py:49]: Setting SW102 footprint position: (86912500, 72625000)
+[board_modifier.py:38]: Searching for ST102 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW103 footprint
+[board_modifier.py:49]: Setting SW103 footprint position: (91675000, 72625000)
+[board_modifier.py:38]: Searching for ST103 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW104 footprint
+[board_modifier.py:49]: Setting SW104 footprint position: (96437500, 72625000)
+[board_modifier.py:38]: Searching for ST104 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW105 footprint
+[board_modifier.py:49]: Setting SW105 footprint position: (101200000, 72625000)
+[board_modifier.py:38]: Searching for ST105 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW106 footprint
+[board_modifier.py:49]: Setting SW106 footprint position: (105962500, 72625000)
+[board_modifier.py:38]: Searching for ST106 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW107 footprint
+[board_modifier.py:49]: Setting SW107 footprint position: (110725000, 72625000)
+[board_modifier.py:38]: Searching for ST107 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW108 footprint
+[board_modifier.py:49]: Setting SW108 footprint position: (115487500, 72625000)
+[board_modifier.py:38]: Searching for ST108 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW109 footprint
+[board_modifier.py:49]: Setting SW109 footprint position: (120250000, 72625000)
+[board_modifier.py:38]: Searching for ST109 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW110 footprint
+[board_modifier.py:49]: Setting SW110 footprint position: (125012500, 72625000)
+[board_modifier.py:38]: Searching for ST110 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW111 footprint
+[board_modifier.py:49]: Setting SW111 footprint position: (129775000, 72625000)
+[board_modifier.py:38]: Searching for ST111 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW112 footprint
+[board_modifier.py:49]: Setting SW112 footprint position: (134537500, 72625000)
+[board_modifier.py:38]: Searching for ST112 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW113 footprint
+[board_modifier.py:49]: Setting SW113 footprint position: (139300000, 72625000)
+[board_modifier.py:38]: Searching for ST113 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW114 footprint
+[board_modifier.py:49]: Setting SW114 footprint position: (144062500, 72625000)
+[board_modifier.py:38]: Searching for ST114 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW115 footprint
+[board_modifier.py:49]: Setting SW115 footprint position: (148825000, 72625000)
+[board_modifier.py:38]: Searching for ST115 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW116 footprint
+[board_modifier.py:49]: Setting SW116 footprint position: (153587500, 72625000)
+[board_modifier.py:38]: Searching for ST116 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW117 footprint
+[board_modifier.py:49]: Setting SW117 footprint position: (158350000, 72625000)
+[board_modifier.py:38]: Searching for ST117 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW118 footprint
+[board_modifier.py:49]: Setting SW118 footprint position: (163112500, 72625000)
+[board_modifier.py:38]: Searching for ST118 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW119 footprint
+[board_modifier.py:49]: Setting SW119 footprint position: (167875000, 72625000)
+[board_modifier.py:38]: Searching for ST119 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW120 footprint
+[board_modifier.py:49]: Setting SW120 footprint position: (172637500, 72625000)
+[board_modifier.py:38]: Searching for ST120 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW121 footprint
+[board_modifier.py:49]: Setting SW121 footprint position: (177400000, 72625000)
+[board_modifier.py:38]: Searching for ST121 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW122 footprint
+[board_modifier.py:49]: Setting SW122 footprint position: (182162500, 72625000)
+[board_modifier.py:38]: Searching for ST122 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW123 footprint
+[board_modifier.py:49]: Setting SW123 footprint position: (186925000, 72625000)
+[board_modifier.py:38]: Searching for ST123 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW124 footprint
+[board_modifier.py:49]: Setting SW124 footprint position: (191687500, 72625000)
+[board_modifier.py:38]: Searching for ST124 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW125 footprint
+[board_modifier.py:49]: Setting SW125 footprint position: (196450000, 72625000)
+[board_modifier.py:38]: Searching for ST125 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW126 footprint
+[board_modifier.py:49]: Setting SW126 footprint position: (201212500, 72625000)
+[board_modifier.py:38]: Searching for ST126 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW127 footprint
+[board_modifier.py:49]: Setting SW127 footprint position: (205975000, 72625000)
+[board_modifier.py:38]: Searching for ST127 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW128 footprint
+[board_modifier.py:49]: Setting SW128 footprint position: (210737500, 72625000)
+[board_modifier.py:38]: Searching for ST128 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW129 footprint
+[board_modifier.py:49]: Setting SW129 footprint position: (215500000, 72625000)
+[board_modifier.py:38]: Searching for ST129 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW130 footprint
+[board_modifier.py:49]: Setting SW130 footprint position: (220262500, 72625000)
+[board_modifier.py:38]: Searching for ST130 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW131 footprint
+[board_modifier.py:49]: Setting SW131 footprint position: (225025000, 72625000)
+[board_modifier.py:38]: Searching for ST131 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW132 footprint
+[board_modifier.py:49]: Setting SW132 footprint position: (229787500, 72625000)
+[board_modifier.py:38]: Searching for ST132 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW133 footprint
+[board_modifier.py:49]: Setting SW133 footprint position: (234550000, 72625000)
+[board_modifier.py:38]: Searching for ST133 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW134 footprint
+[board_modifier.py:49]: Setting SW134 footprint position: (239312500, 72625000)
+[board_modifier.py:38]: Searching for ST134 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW135 footprint
+[board_modifier.py:49]: Setting SW135 footprint position: (244075000, 72625000)
+[board_modifier.py:38]: Searching for ST135 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for  footprint
+[board_modifier.py:41]: Footprint not found
