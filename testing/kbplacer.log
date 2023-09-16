@@ -1,0 +1,38 @@
+[kbplacer_plugin_action.py:78]: Plugin executed with KiCad version: 7.0.7
+[kbplacer_plugin_action.py:79]: Plugin executed with python version: '3.11.3 (main, Jun  5 2023, 09:32:32) [GCC 13.1.1 20230429]'
+[kbplacer_dialog.py:392]: Language: en
+[kbplacer_plugin_action.py:95]: GUI state: {"switch_section": {"annotation": "SW{}", "layout_path": "/home/felix/Code/kbd/art/keyboard-layout.json", "x_distance": "19.05", "y_distance": "19.05"}, "switch_diodes_section": {"enable": true, "element_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"relative_position": [5.08, 3.03], "orientation": 90.0, "side": "BACK"}}}, "additional_elements": {"elements_info": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "FRONT"}}]}, "misc_section": {"route_tracks": true, "template_path": ""}}
+[key_placer.py:68]: Set key 1U distance: 19050000/19050000
+[key_placer.py:282]: User layout: [[{'a': 7}, '', '', '', ''], ['', '', '', '']]
+[key_placer.py:286]: Diode info: ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(relative_position=Point(x=5.08, y=3.03), orientation=90.0, side=<Side.BACK: True>))
+[board_modifier.py:38]: Searching for SW1 footprint
+[board_modifier.py:38]: Searching for D1 footprint
+[key_placer.py:266]: Detected template switch-to-diode path: []
+[board_modifier.py:38]: Searching for SW1 footprint
+[board_modifier.py:49]: Setting SW1 footprint position: (34525000, 34525000)
+[board_modifier.py:38]: Searching for D1 footprint
+[board_modifier.py:49]: Setting D1 footprint position: (39605000, 37555000)
+[board_modifier.py:38]: Searching for ST1 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for D1 footprint
+[key_placer.py:374]: Switch pad without recognized net name found.
+[key_placer.py:126]: Routing SW1 with D1
+[key_placer.py:139]: switchPadPosition: (28175000, 37065000), diodePadPosition: (38655000, 38492500)
+[board_modifier.py:129]: Track collide with pad SW1:
+[board_modifier.py:129]: Track collide with pad SW1:
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D1:2
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW1:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(37227500, 37065000), (28175000, 37065000)]
+[board_modifier.py:38]: Searching for SW2 footprint
+[board_modifier.py:49]: Setting SW2 footprint position: (53575000, 34525000)
+[board_modifier.py:38]: Searching for D2 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for ST2 footprint
+[board_modifier.py:41]: Footprint not found
+[key_placer.py:363]: Switch pad without recognized net name found.
+[board_modifier.py:38]: Searching for D2 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for SW3 footprint
+[board_modifier.py:41]: Footprint not found
